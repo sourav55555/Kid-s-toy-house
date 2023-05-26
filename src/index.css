@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.active{
+   @apply border-b-2 border-black pb-2
+}
+
+.outline-btn{
+  @apply px-5 border-2 font-semibold rounded-xl text-[#2f8a8e] border-[#00ADB5] py-3
+}
+.outline-btnlg{
+  @apply px-8 border-4 font-semibold rounded-xl text-[#4d4d4d] border-[#235558] py-3
+}
+
+.font{
+  font-family: 'Righteous', cursive;
+  letter-spacing: 2px;
+}
+.font2{
+  font-family: 'Permanent Marker', cursive;
+}
+
+.title{
+  font-family: 'Righteous', cursive;
+  padding: 12px 16px;
+  letter-spacing: 3px;
+  position: relative;
+  width: fit-content;
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  margin-bottom: 1.5rem;
+}
+
+@media only screen and (max-width: 768px)  {
+  .title{
+    font-size: 1.4rem;
+    padding: 9px 13px;
+  }
+}
+.title::before{
+  content: " ";
+  position: absolute;
+  height: 50%;
+  width: 50%;
+  bottom: 0;
+  left: 0;
+  border-left: 4px solid #00ADB5;
+  border-bottom: 4px solid #00ADB5;
+  margin-left: auto;
+  margin-right: auto;
+}
+.second-title{
+  @apply font-semibold text-lg mb-12
+}

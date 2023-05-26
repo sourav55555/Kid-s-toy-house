@@ -1,0 +1,12 @@
+.loginBg{
+    background: rgb(0,173,181);
+    background: linear-gradient(142deg, rgba(0,173,181,0.07334271599264708) 0%, rgba(0,173,181,0.3338469176733193) 41%, rgba(0,173,181,0.9136788504464286) 100%); 
+}
+
+.submit{
+    box-shadow: 4px 4px 10px rgb(57, 57, 57);
+    transition: all .3s ;
+}
+.submit:hover{
+    box-shadow: 6px 6px 10px rgb(43, 43, 43);
+}
